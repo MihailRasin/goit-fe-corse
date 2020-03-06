@@ -207,11 +207,13 @@ p.text2 {
 .knopka {
   margin-top: 10px;
   width: 160px;
-  height: 55px;
+  height: 50px;
   color: white;
   background-color: #4ec6ab;
   text-align: center;
   font-family: 'OpenSans' sans-serif;
   font-weight: 300;
   font-size: 14px;
+  border-radius: 6px;
+  border: transparent;
 }

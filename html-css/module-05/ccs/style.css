@@ -65,9 +65,10 @@ img {
 }
 
 .top-menu {
-  width: 1600px;
+  width: 100%;
   height: 600px;
   background-image: url(../img/top.jpg);
+  background-position: center;
   margin: 0 auto;
   color: white;
   position: relative;
@@ -112,21 +113,35 @@ p {
   transform: translate( -50%, -50%);
 }
 
-  
+
 
 .but1 {
   float: left;
   width: 100px;
   height: 100px;
   background-color: #54a18f;
-  background-image: url(../img/slidearowleft.jpg);
+  border: none;
+  background-image: url(../img/slidearowleft.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  
 }
 .but2 {
   float: right;
   width: 100px;
   height: 100px;
   background-color: #54a18f;
-  background-image: url(../img/slidearowright.jpg);
+  border: none;
+  background-image: url(../img/slidearowright.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.but1:hover {
+  opacity: 0.5;
+}
+.but2:hover {
+  opacity: 0.5;
 }
 
 h2.name-1 {
@@ -270,7 +285,28 @@ overflow: hidden;
   cursor: pointer;
   top: 90px;
   left: 46px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+.icon-1:hover {
+  background-color: #1abc9c;
+  background-image: url(../img/33.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.icon-2:hover {
+  background-color: #1abc9c;
+  background-image: url(../img/22.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.icon-3:hover {
+  background-color: #1abc9c;
+  background-image: url(../img/11.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .icon-4 {
   
   display: inline-block;
@@ -286,6 +322,8 @@ overflow: hidden;
   cursor: pointer;
   top: 147px;
   left: 46px;
+  background-position: center;
+  background-repeat: no-repeat;
 } 
 .social-icons-1 {
   opacity: 0;
@@ -316,10 +354,12 @@ transform: translate(-50%, -50%);
     background-color: transparent;
     position: absolute;
     z-index: 3;
-    background-image: url(../img/2.jpg);
+    background-image: url(../img/2.png);
     cursor: pointer;
     top: 90px;
     left: 105px;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   .icon-3 {
@@ -337,6 +377,8 @@ transform: translate(-50%, -50%);
     cursor: pointer;
     top: 90px;
     left: 161px;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
 .and p {
