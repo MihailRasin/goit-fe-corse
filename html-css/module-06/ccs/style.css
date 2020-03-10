@@ -37,16 +37,17 @@ font-weight: 700;
 padding-top: 10px;}
 
 .menu a {
+  text-transform: uppercase;
   color: #95e1d3;
   font-size: 14px;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
   /* transition: all 1s linear; */
 }
 
 .menu li {
 text-align: center;
   margin-right: 60px;
+  font-weight: 500;
 }
 
 .menu a::after {
