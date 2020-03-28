@@ -1,0 +1,514 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all .2s linear;
+}
+
+ul,
+ol,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+
+/* ===========HEAD__LOGO============= */
+
+.page-head {
+width: 100%;
+height: 540px;
+background-image: url(../mobileimg/Vector\ Smart\ Object.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.menu a {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.menu {
+  width: 177px;
+  height: min-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+div.link {
+  margin-right: 40px;
+}
+
+
+
+.menu button {
+  width: 90px;
+  height: 40px;
+  border: 3px white solid;
+  border-radius: 30px;
+  background-color: transparent;
+}
+
+
+div.logo {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-top: 115px;
+  text-align: center;
+
+}
+
+div.title-1 {
+  margin-top: 40px;
+  text-align: center;
+}
+
+div.title-1 h2 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+div.title-1 p {
+  margin: 0 auto;
+  text-align: center;
+  width: 225px;
+  height: 55px;
+  padding-top: 20px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+div.title-1 button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+  width: 280px;
+  height: 45px;
+  background-color: #ff4e50;
+  border: none;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+/* ===========TEAM___TEAM============== */
+main {
+  margin-bottom: 60px;
+}
+main h2 {
+  margin: 0 auto;
+  width: 275px;
+  height: 60px;
+  text-align: center;
+  margin-top: 60px;
+  color: #333333;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+/* ===============TEAM START============= */
+div.team-1 {
+  
+  margin-top: 20px;
+  text-align: center;
+  
+}
+
+div.team-1 div.div-img {
+  position: relative;
+  display: inline-block;
+}
+
+div.team-1 div.div-img::after {
+content: "" ;
+width: 32px;
+height: 32px;
+background-image: url(../mobileimg/11.png);
+background-color: #ff4e50;
+border: 3px rgb(255, 255, 255) solid;
+display: block;
+background-position: center;
+background-repeat: no-repeat;
+border-radius: 50%;
+position: absolute;
+right: 1px;
+bottom: 1px;
+}
+
+div.team-2 {
+  
+  margin-top: 20px;
+  text-align: center;
+}
+
+div.team-2 div.div-img {
+  position: relative;
+  display: inline-block;
+}
+
+div.team-2 div.div-img::after {
+content: "" ;
+width: 32px;
+height: 32px;
+background-image: url(../mobileimg/22.png);
+background-color: #ffa507;
+border: 3px rgb(255, 255, 255) solid;
+display: block;
+background-position: center;
+background-repeat: no-repeat;
+border-radius: 50%;
+position: absolute;
+right: 1px;
+bottom: 1px;
+}
+
+div.team-3 {
+  
+  margin-top: 20px;
+  text-align: center;
+}
+
+div.team-3 div.div-img {
+  position: relative;
+  display: inline-block;
+}
+
+div.team-3 div.div-img::after {
+content: "" ;
+width: 32px;
+height: 32px;
+background-image: url(../mobileimg/33.png);
+background-color: #1cd7ad;
+border: 3px rgb(255, 255, 255) solid;
+display: block;
+background-position: center;
+background-repeat: no-repeat;
+border-radius: 50%;
+position: absolute;
+right: 1px;
+bottom: 1px;
+}
+
+div.team-4 {
+  
+  margin-top: 20px;
+  text-align: center;
+}
+
+div.team-4 div.div-img {
+  position: relative;
+  display: inline-block;
+}
+
+div.team-4 div.div-img::after {
+content: "" ;
+width: 32px;
+height: 32px;
+background-image: url(../mobileimg/44.png);
+background-color: #4e73db;
+border: 3px rgb(255, 255, 255) solid;
+display: block;
+background-position: center;
+background-repeat: no-repeat;
+border-radius: 50%;
+position: absolute;
+right: 1px;
+bottom: 1px;
+}
+
+/* =============TEAM AND=============== */
+
+
+main h3 {
+  margin-top: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #333333;
+} 
+
+main p {
+  padding-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #8f8f8f;
+}
+
+div.div-p {
+  width: 210px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+div.last_button {
+  width: 280px;
+  margin: 0 auto;
+}
+
+main button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ff4e50;
+  width: 280px;
+  height: 45px;
+  background-color: transparent;
+  border: 3px #ff4e50 solid;
+  border-radius: 30px;
+  margin-top: 30px;
+
+}
+
+
+/* ==========768========== */
+
+@media (min-width: 767px) {
+  .page-head {
+    width: 100%;
+    height: 700px;
+    background-image: url(../tabletimg/Vector\ Smart\ Object.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+    
+    .menu {
+      padding-top: 40px;
+      margin-right: 55px;
+    }
+    
+    div.menu-0 { 
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    
+    div.logo {
+      padding-top: 50px;
+      margin-left: 55px;
+
+    }
+    
+    div.title-1 {
+      margin-top: 155px;
+    }
+    
+    div.title-1 h2 {
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      font-size: 52px;
+    }
+    
+    div.title-1 p {
+      width: 100%;
+      height: max-content;
+      padding-top: 45px;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      opacity: 0.7;
+    }
+    
+    div.title-1 button {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      color: white;
+      width: 235px;
+      height: 40px;
+      background-color: #ff4e50;
+      border: none;
+      border-radius: 30px;
+      margin-top: 40px;
+    }
+
+    /* ===========TEAM___TEAM============== */
+main {
+  margin-bottom: 70px;
+}
+main h2 {
+  margin: 0 auto;
+  width: 100%;
+  height: max-content;
+  text-align: center;
+  margin-top: 60px;
+  color: #333333;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+div.team-0 {
+  margin: 0 auto;
+  width: 490px;
+  height: min-content;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+div.team-3 {
+  order: -1;
+}
+div.team-1 {
+  order: -1;
+}
+div.last_button {
+  width: 200px;
+  margin: 0 auto;
+}
+
+main button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #ff4e50;
+  width: 200px;
+  height: 45px;
+  background-color: transparent;
+  border: 3px #ff4e50 solid;
+  border-radius: 30px;
+  margin-top: 30px;
+
+}
+
+}
+
+
+/* ==========brouser========== */
+
+
+@media (min-width: 1025px) {
+  .page-head {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/Background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+    
+    .menu {
+      padding-top: 40px;
+      margin-right: 55px;
+    }
+    
+    div.menu-0 { 
+      margin: 0 auto;
+      width: 1000px;
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    
+    div.logo {
+      padding-top: 50px;
+      margin-left: 55px;
+
+    }
+    
+    div.title-1 {
+      margin-top: 155px;
+    }
+    
+    div.title-1 h2 {
+      color: rgb(255, 255, 255);
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      font-size: 52px;
+    }
+    
+    div.title-1 p {
+      width: 100%;
+      height: max-content;
+      padding-top: 45px;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      opacity: 0.7;
+    }
+    
+    div.title-1 button {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      color: white;
+      width: 235px;
+      height: 40px;
+      background-color: #ff4e50;
+      border: none;
+      border-radius: 30px;
+      margin-top: 40px;
+    }
+
+    /* ===========TEAM___TEAM============== */
+main {
+  margin-bottom: 70px;
+}
+main h2 {
+  margin: 0 auto;
+  width: 100%;
+  height: max-content;
+  text-align: center;
+  margin-top: 60px;
+  color: #333333;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+div.team-0 {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 1000px;
+  height: min-content;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.last_button {
+  width: 200px;
+  margin: 0 auto;
+}
+
+main button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #ff4e50;
+  width: 200px;
+  height: 45px;
+  background-color: transparent;
+  border: 3px #ff4e50 solid;
+  border-radius: 30px;
+  margin-top: 45px;
+
+}
+
+}
