@@ -36,29 +36,44 @@ background-size: cover;
 }
 
 .menu {
-  width: 177px;
+  width: 180px;
   height: min-content;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding-top: 20px;
   margin: 0 auto;
 }
 
-div.link {
+/* div.link:nth-child(1) {
   margin-right: 40px;
+} */
+
+button.link {
+  text-align: center;
+  width: 90px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 
 
-.menu button {
+button.link:hover {
+  text-align: center;
   width: 90px;
   height: 40px;
   border: 3px white solid;
   border-radius: 30px;
   background-color: transparent;
   cursor: pointer;
+  transition: none;
 }
+
+
+
+
 
 
 div.logo {
@@ -78,6 +93,7 @@ div.title-1 {
 }
 
 div.title-1 h2 {
+  text-transform: uppercase;
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -496,7 +512,7 @@ div.last_button:hover button {
     div.title-1 h2 {
       color: rgb(255, 255, 255);
       font-family: 'Montserrat', sans-serif;
-      font-weight: 500;
+      font-weight: 700;
       font-size: 52px;
     }
     
