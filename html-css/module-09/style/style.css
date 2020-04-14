@@ -1,0 +1,323 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        
+        .wrapper {
+            background-image: url(../img/wrapper-img.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-bottom: 75px;
+        }
+        
+        .header {
+            text-align: center;
+        }
+        
+        .logo {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 1.2;
+            color: #ffffff;
+        }
+        
+        .hdr-btn button {
+            height: 36px;
+            width: 90px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.2;
+            color: #fff;
+            border: 2px solid rgb(255, 255, 255, 0);
+            border-radius: 20px;
+            background-color: rgba(26, 25, 21, 0);
+            outline: none;
+            cursor: pointer;
+        }
+        
+        .hdr-btn button:hover,
+        .hdr-btn button:focus {
+            border: 2px solid rgb(255, 255, 255, 1);
+            border-radius: 20px;
+        }
+        
+        .wrapper-info {
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        div.click button {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            color: #ff4e50;
+            width: 280px;
+            height: 45px;
+            border-radius: 30px;
+            margin-top: 20px;
+            cursor: pointer;
+            border: 3px #ff4e50 solid;
+            background-color: inherit;
+          
+          }
+          
+          button.butt-1:hover {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            color: #ffffff;
+            background-color: #ff4e50;
+            width: 280px;
+            height: 45px;
+            border: 3px #ff4e50 solid;
+            border-radius: 30px;
+          
+          }
+        .wrapper-title {
+            font-family: 'Moontserrat', sans-serif;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 1.2;
+            color: #fff;
+            margin: 0 auto;
+            width: 290px;
+            text-transform: uppercase;
+        }
+        
+        .wrapper-text {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 1.2;
+            color: #fff;
+            margin: 0 auto;
+            width: 220px;
+        }
+        
+        /* .click button {
+            width: 280px;
+            height: 40px;
+            outline: none;
+            border-radius: 20px;
+            border: none;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            line-height: 1.2;
+            color: #fff;
+            background-color: #ff4e50;
+            cursor: pointer;
+        } */
+        
+        .partners {
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .partners-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 1.2;
+            color: #333333;
+        }
+        
+        .partners__img {
+            width: 230px;
+            margin: 0 auto;
+        }
+        
+        .partner__img-info {
+            margin: 0 auto;
+            position: relative;
+            width: 120px;
+            height: 120px;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-bottom: 25px;
+        }
+        
+        .icon-img {
+            position: absolute;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            background-color: #ff4e50;
+            right: 0;
+            bottom: 0;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+        .tv {
+            background-image: url(../img/icon/TV.png);
+        }
+        
+        .alch-bottle {
+            background-image: url(../img/icon/alch-bottle.png);
+            background-color: #ffa507;
+        }
+        
+        .cup {
+            background-image: url(../img/icon/cup.png);
+            background-color: #1cd7ad;
+        }
+        
+        .paper-plane {
+            background-image: url(../img/icon/paper-plane.png);
+            background-color: #4e73db;
+        }
+        
+        .partners-name {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.2;
+            color: #333333;
+            margin-bottom: 20px;
+        }
+        
+        .partners-info {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 1.2;
+            color: #8f8f8f;
+            text-align: center;
+        }
+        
+        /* .partners-btn button {
+            color: #ff4e50;
+            border: 2px solid #ff4e50;
+            background-color: #fff;
+            width: 280px;
+            height: 40px;
+            outline: none;
+            border-radius: 20px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            line-height: 1.2;
+            cursor: pointer;
+        } */
+
+        .partners-btn button {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            color: #ff4e50;
+            width: 280px;
+            height: 45px;
+            background-color: transparent;
+            border: 3px #ff4e50 solid;
+            border-radius: 30px;
+            margin-top: 30px;
+          
+          }
+          
+          .partners-btn button:hover {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            color: #ffffff;
+            width: 280px;
+            height: 45px;
+            background-color: #ff4e50;
+            border: 3px #ff4e50 solid;
+            border-radius: 30px;
+            margin-top: 30px;
+          
+          }
+        
+        @media (max-width: 767px) {
+            header {
+                padding-top: 34px;
+            }
+            nav {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+            .hdr-btn {
+                padding-bottom: 130px;
+            }
+            .wrapper-info {
+                padding-top: 40px;
+            }
+            .wrapper-title {
+                padding-bottom: 24px;
+            }
+            .wrapper-text {
+                padding: 20px 0px;
+            }
+            .click {
+                padding-bottom: 138px;
+            }
+            .partners-title {
+                width: 280px;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+            .partners-img {
+                /* margin-bottom: 30px; */
+            }
+            .partners-card [class*="col-"]:not(:last-child) {
+                margin-bottom: 30px;
+            }
+            .partners-btn {
+                margin-top: 30px;
+                margin-bottom: 56px;
+            }
+        }
+        
+        @media (min-width: 768px) {
+            .header {
+                padding-top: 50px;
+                padding-bottom: 160px;
+            }
+            nav {
+                display: flex;
+                justify-content: space-between;
+            }
+            .wrapper-title {
+                font-size: 52px;
+                width: 500px;
+                padding-bottom: 46px;
+            }
+            .wrapper-text {
+                padding-bottom: 40px;
+            }
+            .click {
+                padding-bottom: 234px;
+            }
+            .partners-title {
+                margin-bottom: 36px;
+            }
+            .partners-card {
+                margin-bottom: 40px;
+            }
+            .partners-btn {
+                margin-bottom: 40px;
+            }
+        }
+        
+        @media (min-width: 768px) and (max-width: 991px) {
+            .partners-card {
+                padding: 0 65px;
+            }
+            .partners-card [class*="col-"]:nth-child(-n + 2) {
+                margin-bottom: 58px;
+            }
+        }
