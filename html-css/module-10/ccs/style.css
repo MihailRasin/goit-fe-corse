@@ -424,13 +424,10 @@ height: 57px;
 }
 button:hover  {
   background-color: #f38181;
-  ;
- 
 }
 
-button:hover .svg_icon {
+button:hover svg.svg_icon {
   fill: #ffffff;
- 
 }
 
 .block-2 {
