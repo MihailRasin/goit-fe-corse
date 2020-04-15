@@ -428,7 +428,7 @@ button:hover  {
  
 }
 
-button:hover.svg_icon {
+button:hover .svg_icon {
   fill: #ffffff;
  
 }
