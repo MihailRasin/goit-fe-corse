@@ -468,3 +468,10 @@ input::placeholder {
     text-transform: uppercase;
     cursor: pointer;
 }
+.and {
+    border-top: #e5e5e5 3px solid;
+    
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 10px;
+}
