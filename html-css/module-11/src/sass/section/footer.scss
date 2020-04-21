@@ -1,0 +1,89 @@
+
+.ftr-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-bottom: 26px;
+}
+
+.ftr-description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    padding-top: 15px;
+}
+
+.designer {
+    color: #f38181;
+}
+
+.ftr-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.ftr-form input {
+    width: 234px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 24px;
+    color: #ececec;
+    border: 1px solid #e5e5e5;
+}
+
+input::-webkit-input-placeholder {
+    padding: 8px 0;
+    padding-left: 10px;
+    outline: none;
+}
+
+input::-moz-placeholder {
+    padding: 8px 0;
+    padding-left: 10px;
+    outline: none;
+}
+
+input:-ms-input-placeholder {
+    padding: 8px 0;
+    padding-left: 10px;
+    outline: none;
+}
+
+input::-ms-input-placeholder {
+    padding: 8px 0;
+    padding-left: 10px;
+    outline: none;
+}
+
+input::placeholder {
+    padding: 8px 0;
+    padding-left: 10px;
+    outline: none;
+}
+
+.ftr-btn {
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #95e1d3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.and {
+    border-top: #e5e5e5 3px solid;
+    
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 10px;
+}
