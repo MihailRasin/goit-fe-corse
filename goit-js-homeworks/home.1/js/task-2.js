@@ -2,12 +2,12 @@
 
 let total = 100;
 
-let order = 100;
+let order = 101;
 
-if (total - order >= 0) {
+if (total >= order) {
   console.log("Заказ оформлен, с вами свяжется менеджер");
 }
 
-if (total - order < 0) {
+if (total < order) {
   console.log("На складе недостаточно твоаров!");
 }

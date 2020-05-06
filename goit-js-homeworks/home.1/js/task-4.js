@@ -10,16 +10,10 @@ if (totalPrice === null) {
   alert("Отменено пользователем!");
 }
 
-if (totalPrice * pricePerDroid > credits) {
+else if (totalPrice * pricePerDroid > credits) {
   alert("Недостаточно средств на счету!");
 }
 
-if (totalPrice * pricePerDroid <= credits) {
-  console.log(
-    "Вы купили",
-    totalPrice,
-    "дроидов, на счету осталось",
-    credits - totalPrice * pricePerDroid,
-    "кредитов."
-  );
+else if (totalPrice * pricePerDroid <= credits) {
+  console.log(`Вы купили, ${totalPrice}, дроидов, на счету осталось, ${credits - totalPrice * pricePerDroid}, кредитов.`);
 }

@@ -1,13 +1,13 @@
 // task-5
 
-let InputCountry = prompt("В какую страну необходима доставка товара");
+let inputCountry = prompt("В какую страну необходима доставка товара");
 
 let cost;
 
-if (InputCountry === null) {
+if (inputCountry === null) {
   alert("Отменено пользователем!");
 } else {
-  switch (InputCountry.toUpperCase()) {
+  switch (inputCountry.toUpperCase()) {
     case "КИТАЙ":
       cost = 100;
       break;
@@ -35,7 +35,7 @@ if (InputCountry === null) {
     alert("стоимость не определена");
   } else {
     alert(
-      `Доставка в ${InputCountry.toUpperCase()} будет стоить ${cost} кредитов`
+      `Доставка в ${inputCountry.toUpperCase()} будет стоить ${cost} кредитов`
     );
   }
 }

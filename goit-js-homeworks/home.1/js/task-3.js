@@ -8,7 +8,7 @@ if (message === ADMIN_PASSWORD) {
   alert("Добро пожаловать!");
 }
 
-if (message === null) {
+else if (message === null) {
   alert("Отменено пользователем!");
 } else if (message !== ADMIN_PASSWORD) {
   alert("Доступ запрещен, неверный пароль!");
