@@ -10,6 +10,6 @@ if (message === ADMIN_PASSWORD) {
 
 else if (message === null) {
   alert("Отменено пользователем!");
-} else if (message !== ADMIN_PASSWORD) {
+} else {
   alert("Доступ запрещен, неверный пароль!");
 }
